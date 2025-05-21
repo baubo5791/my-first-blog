@@ -69,3 +69,23 @@ h4 {
     color: #FFFFFF;
     background-color: #C25100;
 }
+
+.comment {
+    margin: 20px 0px 20px 20px;
+}
+
+.btn-default {
+    background-color: transparent; /* No filling */
+    border: 2px solid #FFA500;   /* Orange border */
+    color: #333;                 /* Default text color */
+    padding: 8px 15px;           /* Adjust padding */
+    border-radius: 5px;          /* Rounded corners */
+    cursor: pointer;             /* Indicate it's clickable */
+    transition: all 0.3s ease;   /* Smooth transition for hover effects */
+
+    /* --- IMPORTANT for <a> tags --- */
+    text-decoration: none;       /* Remove the default underline */
+    display: inline-block;       /* Allows padding, margin, width/height to work correctly */
+    text-align: center;          /* Centers text if the element has more width */
+    white-space: nowrap;         /* Prevents text from wrapping */
+}
